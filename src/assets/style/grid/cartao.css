@@ -1,0 +1,39 @@
+.secao-horizontal .cartao {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.secao-horizontal .cartao__imagem {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.secao-horizontal .cartao__titulo {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.secao-horizontal .cartao__subtitulo {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.secao-horizontal .cartao__player {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.secao-horizontal .cartao__botao {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
